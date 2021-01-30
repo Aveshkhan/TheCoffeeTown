@@ -77,7 +77,7 @@ html{
 #Home::before{
     content: "";
     position: absolute;
-    background: url(/TheCoffeeTown/coffee background 2.jfif) no-repeat center center/cover;
+    background: url(/TheCoffeeTown/coffee\ background\ 2.jfif) no-repeat center center/cover;
     top: 60px;
     left: 0px;
     height: 100%;
