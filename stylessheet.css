@@ -1,0 +1,411 @@
+/* Reset CSS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/background\ img\ 2.png);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+#Navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    background-color: rgb(48 64 56);
+    height: 90px;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+
+/* #mainlogo{
+    
+} */
+
+#Navbar img{
+    width: 300px;
+    height: auto;
+    margin: 0px 55px;
+    cursor: pointer;
+}
+
+#Navbar img:hover{
+    filter: brightness(75%) contrast(150%);
+}
+
+#Navbar ul{
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 0px 320px;
+    
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#Navbar ul li{
+    list-style: none;
+    font-size: 1.7rem;
+}
+
+#Navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 3px 16px;
+}
+
+#Navbar ul li a:hover{
+    color: wheat;
+}
+#Navbar ul li a:active{
+    text-decoration: underline;
+    color: white;
+}
+
+/* Home */
+
+#Home::before{
+    content: "";
+    position: absolute;
+    background: url(../img/coffee\ background\ 2.jfif) no-repeat center center/cover;
+    top: 60px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.94;
+}
+
+#Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 725px;
+    color: white;
+    padding: 10px 10px;
+    /* margin-right: 37px; */
+}
+
+#Home h1{
+    font-size: 5rem;
+    text-shadow: -3px 4px 11px #000000f8;
+    font-family: 'Markazi Text', serif;
+}
+
+#Home p{
+    font-size: 2.5rem;
+    text-shadow: -2px 2px 10px #000000;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
+}
+
+    /* Services Section  */
+
+#Services{
+     /* margin: 10px 0px; */
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 330px;
+    margin: 0px 40px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.box:hover{
+    filter: brightness(80%);
+    opacity: 90%;
+}
+
+.box img{
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: auto;
+}
+.box p{
+    text-align: start;
+}
+
+.box h2{
+    margin-top: 5px ;
+}
+
+/* Offers Section  */
+
+#Offers h2{
+    margin-top: 3px;
+}
+
+#offers{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   margin: 70px 0px;
+}
+
+#offers img{
+    max-width: 40%;
+    height: auto;
+    margin: 10px 40px;
+}
+
+#Offers p{
+    font-size: 1.3rem;
+    margin-top: 5px ;
+    font-family: 'Karla', sans-serif;
+}
+
+#Offers h3{
+    font-size: 3rem;
+}
+
+/* Social Section */
+
+#social{
+    margin: 70px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#image-box{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social img{
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+#social ul li{
+    list-style: none;
+}
+
+.item{
+    
+}
+
+#social img:hover{
+    filter: brightness(70%);
+    transition: all 0.4s;
+}
+
+.img-row1{
+    display: flex;
+}
+.img-row2{
+    display: flex;
+}
+
+#social h3{
+    margin: 20px 0px;
+}
+
+
+/* Socialfooter */
+
+#socialfooter{
+    display: flex;
+    height: 90px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    height: 100px;
+    width: 335px;
+    margin-left: 600px;
+}
+
+.email input{
+
+}
+.email label{
+    font-size: 1.2rem;
+    display: flex;
+    font-family: 'Markazi Text', serif;
+}
+
+.email input[type="email"]{
+    font-size: 15px;
+    padding: 12px 15px;
+    width: 275px;
+    margin: 0px 0px 0px 0px;
+    border: 0.5px solid rgb(193 108 47);
+}
+
+.email input[type="submit"]{
+    font-size: 20px;
+    margin: 0px 0px 0px -4px;
+    padding:4px 19px 5px 19px;
+    border: 0.5px solid rgb(193 108 47);
+}
+
+#socialicons{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+/* social icons */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+  .fa:hover {
+    background-color: rgb(255, 222, 161);
+    color: rgb(82, 82, 82);
+  }
+ 
+  .fa-facebook {
+    background-color: rgb(193 108 47);
+    color: white;
+  }
+
+.fa-twitter {
+    background: rgb(193 108 47);
+    color: white;
+  }
+
+  .fa-instagram{
+      background-color: rgb(193 108 47);
+      color: white;
+  }
+
+  /* footer */
+
+#footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-family: 'Karla', sans-serif;
+}
+
+.copyright{
+    text-align: center;
+    margin: 10px 150px;
+}
+
+#crafter{
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+#contactno{
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+/* Utilities */
+
+.btn{  
+    background-color: rgb(48 64 56);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.3rem;
+    padding: 7px 14px;
+    margin: 9px 0px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: none;
+    border-left: none;
+    /* border-bottom-right-radius:15px ; */
+    /* border-top-left-radius: 15px; */
+    color: white;
+    font-weight: bold;
+    transition: all 0.4s ;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: wheat;
+    color: rgb(63, 63, 63);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: none;
+    border-left: none;
+}
+
+.btn2{
+    background-color: rgb(193 108 47) ;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin: 18px 0px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 222, 161);
+    color: rgb(82, 82, 82);
+}
+
+.h-primary{
+    font-size: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    display: block;
+    text-align: center;
+    margin: 60px 0px;
+    padding: 50px 0px;
+    color: rgb(68 92 80);
+    text-shadow: -1px 1px 3px rgb(0 0 0 / 38%);
+}
+
+.h-secondary{
+    /* text-align: center; */
+    font-size: 2rem;
+    font-family: 'Markazi Text', serif;
+    color: rgb(193 108 47);
+}
+
+.h-third{
+    font-size: 2.5rem;
+    font-family: 'Markazi Text', serif;
+}
